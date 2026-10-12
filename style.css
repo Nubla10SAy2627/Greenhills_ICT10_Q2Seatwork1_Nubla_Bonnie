@@ -1,0 +1,85 @@
+/* General page design */
+body {
+background-color: #f5f5ed;
+font-family: Arial, sans-serif;
+color: #34483b;
+text-align: center;
+padding: 40px 20px;
+}
+
+/* Main heading */
+h1 {
+color: #42634d;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+/* Description */
+p {
+color: #68766b;
+font-size: 16px;
+margin-bottom: 25px;
+}
+
+/* Main content area */
+body > div {
+background-color: white;
+max-width: 550px;
+margin: 30px auto;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Country lookup label */
+body > div > p {
+color: #78917b;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+/* Country heading */
+body > div h1 {
+font-size: 22px;
+margin-bottom: 20px;
+}
+
+/* Dropdown menu */
+select {
+width: 100%;
+padding: 12px;
+border: 1px solid #cbd8c9;
+border-radius: 8px;
+background-color: #fafbf8;
+color: #34483b;
+margin-bottom: 20px;
+cursor: pointer;
+}
+
+/* Button */
+input[type="button"] {
+background-color: #64856a;
+color: white;
+border: none;
+padding: 11px 25px;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
+}
+
+/* Button hover effect */
+input[type="button"] {
+background-color: #45684d;
+}
+
+/* Nickname result */
+#display {
+margin-top: 25px;
+padding: 15px;
+background-color: #f0f5ed;
+color: #42634d;
+border-radius: 8px;
+font-size: 20px;
+font-weight: bold;
+min-height: 20px;
+}
